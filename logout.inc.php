@@ -3,7 +3,7 @@ session_start();
 session_unset();
 session_destroy();
 
-header("location: ./homepagr.php");
+header("location: ./index.php");
 exit();
 
 ?>

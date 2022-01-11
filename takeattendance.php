@@ -141,7 +141,7 @@
           </div>
 
         </form>
-        <form action="homepagr.php" method="post">
+        <form action="index.php" method="post">
           <div class=""><button class="item" type="submit" name="submit" style="
                   background: linear-gradient(90deg,#F0F0F0,#5A96BE,#0A8295);
                   display:flex;
