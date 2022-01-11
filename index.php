@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Home Page</title>
     <style type="text/css">
     h1{
       text-transform: uppercase;
