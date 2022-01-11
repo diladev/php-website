@@ -123,7 +123,7 @@ function loginUser($conn,$username, $pwd){
     $_SESSION["usersid"] = $uidExists["usersId"];
     $_SESSION["usersUid"] = $uidExists["usersUid"];
     $_SESSION["uRole"] = $uidExists["usersRole"];
-    header("location: ./homepagr.php");
+    header("location: ./index.php");
     exit();
   }
 }
