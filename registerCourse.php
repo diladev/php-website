@@ -46,7 +46,7 @@
          </li>
          <li>
            <a href="#" class="fancy-text">
-             <i class='bx bxs-user-plus'></i>
+             <i class='bx bxs-dollar-circle'></i>
              <span class="link_name"></span>
            </a>
          </li>
@@ -86,7 +86,7 @@
      <div class="home-content">
        <table align="center" border="1" style="margin-top: 0px;width: 600px; line-height: 50px;">
          <tr>
-           <th colspan="3" style="background-color: #474C55; color: white;"><h2>My Absent Records</h2></th>
+           <th colspan="3" style="background-color: #474C55; color: white;"><h2>My Courses</h2></th>
          </tr>
          <t>
            <th style="background-color:#4F7F96; color:white;">Course Name</th>
