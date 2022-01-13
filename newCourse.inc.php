@@ -1,7 +1,7 @@
 <?php
 include 'dbh.inc.php';
 $courseName = $_POST["CN"];
-$creditHour = $_POST["CD"];
+$creditHour = $_POST["CH"];
 
 function addCourse($conn,$courseName,$creditHour){
   $sql = "INSERT INTO courses (course_name, credit_hour) VALUES (?, ?);";
