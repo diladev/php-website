@@ -121,6 +121,7 @@ background: linear-gradient( to right bottom, rgba(57,69, 81, 0.4),rgba(57,69, 8
         <li><a href="#">Courses</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
+	<li><a href="mysite.php">Login</a></li>
         </ul>
       </nav>
     </div>
@@ -133,8 +134,6 @@ background: linear-gradient( to right bottom, rgba(57,69, 81, 0.4),rgba(57,69, 8
         }else if (isset($_SESSION["uRole"]) && $_SESSION["uRole"]=="student") {
           echo "<a href='studentHome.php' style='color: white; font-weight:bold;'>Profile Page</a>";
           echo "<a href='logout.inc.php' style='color: white; font-weight:bold;'>Log out</a>";
-        }else{
-          echo "<a href='mysite.php' style='color: white; font-weight:bold;'>Login</a>";
         }
         ?>
       </dive>
