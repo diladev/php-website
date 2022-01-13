@@ -26,7 +26,7 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
      <div class="flex-NavBar">
        <ul class="nav-links">
          <li>
-           <a href="newAddcourse.php" class="fancy-text">
+           <a href="registerCourse.php" class="fancy-text">
              <i class='bx bxs-book-add' ></i>
              <span class="link_name"></span>
            </a>
