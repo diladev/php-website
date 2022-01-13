@@ -15,7 +15,8 @@
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-      background: linear-gradient(90deg,#F0F0F0,#5A96BE,#0A8295);
+      	background-image: url("https://drive.google.com/uc?id=1VXL1sP6ucgpiWc6bpJx1LBwlPn_7_Bv1");
+	background-color: #BEDCE9;
 }
 
 .container {
@@ -86,10 +87,10 @@ nav a:hover::before {
     .welcome-text{
       position: absolute;
       width: 800px;
-      height: 300px;
+      height: 120px;
       margin: 20% 30%;
       text-align: center;
-background: linear-gradient( to right bottom, rgba(57,69, 81, 0.4),rgba(57,69, 81, 0.3));
+      background: linear-gradient( to right bottom, rgba(57,69, 81, 0.7),rgba(57,69, 81, 0.7));
       border-radius: 30px;
 
     }
