@@ -58,7 +58,7 @@ body{
     <div class="flex-NavBar">
       <ul class="nav-links">
         <li>
-          <a href="#" class="fancy-text">
+          <a href="registerCourse.php" class="fancy-text">
             <i class='bx bxs-book-add' ></i>
             <span class="link_name"></span>
           </a>
