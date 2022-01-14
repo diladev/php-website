@@ -13,12 +13,12 @@ if (isset($_POST["submit"])) {
   require_once 'function.inc.php';
 
   if (emptyInoutSignup($name, $email, $username, $userrole, $pwd, $pwdRepeat) !== false) {
-    header("location: ./signup.php?error=emptyinput");
+    header("location: ./newAdduser.php?error=emptyinput");
     exit();
   }
 
   if (invalidUid($username) !== false) {
-    header("location: ./signup.php?error=invaliduid");
+    header("location: ./newAdduser.php?error=invaliduid");
     exit();
   }
 
@@ -30,24 +30,24 @@ if (isset($_POST["submit"])) {
 */
 
   if (invalidrole($userrole) !== false) {
-    header("location: ./signup.php?error=invalidrole");
+    header("location: ./newAdduser.php?error=invalidrole");
     exit();
   }
 
 
   if (pwdMatch($pwd,$pwdRepeat) !== false) {
-    header("location: ./signup.php?error=passwordsdontmatch");
+    header("location: ./newAdduser.php?error=passwordsdontmatch");
     exit();
   }
 
   if (uidExists($conn,$username,$email)) {
-    header("location: ./signup.php?error=usernametaken");
+    header("location: ./newAdduser.php?error=usernametaken");
     exit();
   }
 
   createUser($conn, $name, $email, $username, $userrole, $pwd);
 
 }else{
-  header("location: ./signup.php");
+  header("location: ./newAdduser.php");
   exit();
 }
