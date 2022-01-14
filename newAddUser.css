@@ -1,0 +1,52 @@
+.inStyle{
+  float: left;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top: 100px;
+  left: 785px;
+
+  width: 420px;
+  border-radius: 25px;
+  background: #4F7F96;
+}
+.in{
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  background-color: gray;
+  border:none;
+
+}
+
+.item:hover{
+  background-color: #5695BC;
+}
+.hstyle{
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.form i{
+  position: absolute;
+  margin-left: -50px;
+  visibility: hidden;
+}
+.form.success iput{
+  border-color: solid 2px #2ecc80;
+}
+.form.error iput{
+  border-color: solid 2px #E93B3B;
+}
+.form.success i.bxs-check-circle{
+  visibility: visible;
+  color: #2ecc80;
+}
+.form.error i.bxs-error-circle{
+  visibility: visible;
+  color: #E93B3B;
+}
