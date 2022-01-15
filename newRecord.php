@@ -28,7 +28,7 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
        <li>
          <div class="tooltip">
            <a href="studentHome.php" class="navTexT" >
-             <i class='bx bxs-book-add' ></i>
+             <i class='bx bx-home'></i>
              <span class="tooltiptext">Home</span>
            </a>
          </div>
@@ -52,11 +52,19 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
          <div class="tooltip">
            <li>
              <a href="registerCourse.php" class="navTexT">
-               <i class='bx bx-home'></i>
+               <i class='bx bxs-book-add'></i>
                <span class="tooltiptext">Register Course</span>
              </a>
            </li>
          </div>
+         <div class="tooltip">
+            <li>
+              <a href="registeredCourses.php" class="navTexT">
+                <i class='bx bxs-book-bookmark' ></i>
+                <span class="tooltiptext">Register Course</span>
+              </a>
+            </li>
+          </div>
          <div class="tooltip">
            <li>
              <a href="logout.inc.php" class="navTexT">
@@ -67,7 +75,6 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
          </div>
        </ul>
     </div>
-
      <section class="home-section">
        <div class="home-content">
          <table align="center" border="1" style="width: 600px; line-height: 50px;">
