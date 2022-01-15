@@ -20,7 +20,7 @@ function regCourse($conn,$studentId,$cId,$regDate){
 mysqli_stmt_bind_param($stmt, "sss",$studentId,$cId,$regDate);
 mysqli_stmt_execute($stmt);
 mysqli_stmt_close($stmt);
-header("location: ./registerCourse.inc.php?error=none");
+header("location: ./registerCourse.php?error=none");
 exit();
 }
 
