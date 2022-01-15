@@ -1,0 +1,90 @@
+h1{
+  text-transform: uppercase;
+}
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  background-image: url("https://drive.google.com/uc?id=1VXL1sP6ucgpiWc6bpJx1LBwlPn_7_Bv1");
+  background-color: #cccccc;
+}
+.nav-area{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: flex-end;
+  background: #4F7F96;
+  color: #fff;
+  display: flex;
+
+}
+li{
+  padding: 20px;
+  list-style-type: none;
+  align-self: center;
+}
+.fancy-text{
+text-decoration:none;
+color:white;
+position:relative;
+font-family:sans-serif;
+font-weight:bold;
+font-size:20px;
+}
+.fancy-text:after{
+content: '';
+display: block;
+height: 5px;
+background-color: #585E63;
+position: absolute;
+left:0px;
+bottom:-8px;
+width: 0%;
+transition: all ease-in-out 250ms;
+}
+.fancy-text:hover::after{
+width: 100%;
+}
+
+
+.container {
+width: 80%;
+margin: 0 auto;
+}
+
+header {
+background: #55d6aa;
+}
+
+header::after {
+content: '';
+display: table;
+clear: both;
+}
+
+.home-welcome-text{
+  position: absolute;
+  width: 800px;
+  height: 120px;
+  margin: 20% 30%;
+  text-align: center;
+  background: linear-gradient( to right bottom, rgba(57,69, 81, 0.7),rgba(57,69, 81, 0.7));
+  border-radius: 30px;
+
+}
+.home-welcome-text h1{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.home-welcome-text a{
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+}
