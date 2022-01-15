@@ -11,6 +11,10 @@ $cIdQ = mysqli_fetch_array($course);
 $cId = $cIdQ['C_ID'];
 
 function regCourse($conn,$studentId,$cId,$regDate){
+  if ($cId === NULL) {
+    header("location: ./registerCourse.php?error=coursenamewrong");
+    exit();
+  }
   $sql = "INSERT INTO registration (s_id, c_id, Registration_Date) VALUES (?, ?, ?);";
   $stmt = mysqli_stmt_init($conn);
   if (!mysqli_stmt_prepare($stmt, $sql)) {
