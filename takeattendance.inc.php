@@ -20,7 +20,7 @@ function takeabsent($conn,$sId,$cId,$dateOfAbsent){
 mysqli_stmt_bind_param($stmt, "sss",$sId,$cId,$dateOfAbsent);
 mysqli_stmt_execute($stmt);
 mysqli_stmt_close($stmt);
-header("location: ./signup.php?error=none");
+header("location: ./takeattendance.php?error=none");
 exit();
 }
 takeabsent($conn,$sId,$cId,$dateOfAbsent);
