@@ -60,7 +60,7 @@ body{
        <li>
          <div class="tooltip">
            <a href="studentHome.php" class="navTexT" >
-             <i class='bx bxs-book-add' ></i>
+             <i class='bx bx-home'></i>
              <span class="tooltiptext">Home</span>
            </a>
          </div>
@@ -84,11 +84,19 @@ body{
          <div class="tooltip">
            <li>
              <a href="registerCourse.php" class="navTexT">
-               <i class='bx bx-home'></i>
+               <i class='bx bxs-book-add'></i>
                <span class="tooltiptext">Register Course</span>
              </a>
            </li>
          </div>
+         <div class="tooltip">
+            <li>
+              <a href="registeredCourses.php" class="navTexT">
+                <i class='bx bxs-book-bookmark' ></i>
+                <span class="tooltiptext">Register Course</span>
+              </a>
+            </li>
+          </div>
          <div class="tooltip">
            <li>
              <a href="logout.inc.php" class="navTexT">
