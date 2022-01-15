@@ -50,6 +50,16 @@ font-family:sans-serif;
 font-weight:bold;
 font-size:20px;
 }
+
+.navTexT{
+  text-decoration:none;
+  color:white;
+  position:relative;
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:20px;
+}
+
 .fancy-text:after{
 content: '';
 display: block;
@@ -116,4 +126,25 @@ width: 100%;
   font-size: 14px;
   margin-top: 20px;
   display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #4F7F96;
+  color: #fff;
+  text-align: center;
+  left:  -50%;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transform: translateX(50%);
+}
+.tooltiptext{
+  transition: transform .5s;
 }
