@@ -30,41 +30,50 @@
      </style>
    </head>
    <body>
-     <div class="flex-NavBar">
-       <ul class="nav-links">
-         <li>
-           <a href="registerCourse.php" class="fancy-text">
+    <div class="flex-NavBar">
+     <ul>
+       <li>
+         <div class="tooltip">
+           <a href="studentHome.php" class="navTexT" >
              <i class='bx bxs-book-add' ></i>
-             <span class="link_name"></span>
+             <span class="tooltiptext">Home</span>
            </a>
-         </li>
-         <li>
-           <a href="newRecord.php" class="fancy-text">
-             <i class='bx bx-task'></i>
-             <span class="link_name"></span>
-           </a>
-         </li>
-         <li>
-           <a href="#" class="fancy-text">
-             <i class='bx bxs-dollar-circle'></i>
-             <span class="link_name"></span>
-           </a>
-         </li>
-         <li>
-           <a href="studentHome.php" class="fancy-text">
-             <i class='bx bx-home'></i>
-             <span class="link_name"></span>
-           </a>
-         </li>
+         </div>
+       </li>
+         <div class="tooltip">
            <li>
-             <a href="logout.inc.php" class="fancy-text">
-               <i class='bx bx-log-out' ></i>
-               <span class="link_name"></span>
+             <a href="newRecord.php" class="navTexT">
+               <i class='bx bx-task'></i>
+               <span class="tooltiptext ">Record</span>
              </a>
            </li>
-   </ul>
-     </div>
-
+         </div>
+         <div class="tooltip">
+           <li>
+             <a href="#" class="navTexT">
+               <i class='bx bxs-dollar-circle'></i>
+               <span class="tooltiptext">Payment</span>
+             </a>
+           </li>
+         </div>
+         <div class="tooltip">
+           <li>
+             <a href="registerCourse.php" class="navTexT">
+               <i class='bx bx-home'></i>
+               <span class="tooltiptext">Register Course</span>
+             </a>
+           </li>
+         </div>
+         <div class="tooltip">
+           <li>
+             <a href="logout.inc.php" class="navTexT">
+               <i class='bx bx-log-out' ></i>
+               <span class="tooltiptext">Logout</span>
+             </a>
+           </li>
+         </div>
+       </ul>
+    </div>
      <section class="home-section">
        <div class="inStyle" style="margin-top: 150px; margin-left:50%;">
          <form action="register.inc.php" method="post">
@@ -109,11 +118,11 @@
            <td style="background-color:#4F7F96; color:white;"><?php echo $CH; ?></td>
          </tr>
          <?php
-       }
+          }
          ?>
        </table>
-     </div>
-       </section>
+      </div>
+     </section>
    </body>
  </html>
 
