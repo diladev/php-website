@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="homPage.css">
+    <link rel="stylesheet" href="HomPage.css">
   </head>
   <body>
 
