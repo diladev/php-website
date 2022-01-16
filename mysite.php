@@ -41,9 +41,7 @@
               </tr>
             </div>
           </table>
-          <div class="">
-            <button type="submit" name="submit" class="button" style="">Add New User</button>
-          </div>
+          <button type="submit" name="submit" class="button" style="">Login</button>
       </form>
     </div>
   </body>
