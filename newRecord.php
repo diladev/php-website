@@ -43,7 +43,7 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
              <td style="background-color:#4F7F96; color:white;"><?php echo $rows['a_date']; ?></td>
            </tr>
            <?php
-         }
+            }
            ?>
          </table>
        </section>
