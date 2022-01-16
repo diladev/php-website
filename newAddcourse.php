@@ -42,7 +42,7 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <?php include_once 'studentSideBar.php' ?>
+    <?php include_once 'AdminSideBar.php' ?>
     <div class="inStyle">
         <h1 class="hstyle">Add Course</h1>
         <form action="newCourse.inc.php" method="post">
