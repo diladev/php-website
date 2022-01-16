@@ -36,7 +36,7 @@
       <li>
         <a href="registeredCourses.php" class="navTexT">
           <i class='bx bxs-book-bookmark' ></i>
-          <span class="tooltiptext">Register Course</span>
+          <span class="tooltiptext">My Courses</span>
         </a>
       </li>
     </div>
