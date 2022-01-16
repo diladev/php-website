@@ -35,7 +35,7 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
     </style>
   </head>
   <body>
-   <?php include_once 'studentSideBar.php' ?>
+   <?php include_once 'AdminSideBar.php' ?>
       <div class="container">
         <div class="container2">
           <div class="inStyle">
