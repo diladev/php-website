@@ -7,43 +7,27 @@
     <title></title>
     <link rel="stylesheet" href="NavBarStyle.css">
     <style media="screen">
-    .inStyle{
-      float: left;
-      color: white;
-      text-align: left;
-      padding-left: 50px;
-      padding-bottom: 20px;
-      padding-top: 20px;
-      position: absolute;
-      top: 100px;
-      left: 785px;
-
-      width: 350px;
-      border-radius: 25px;
-      background: #4F7F96;
-    }
-    .in{
-      width: 200px;
-      padding-top: 26px;
-      padding-left: 3px;
-      border:none;
-
-    }
-
-    .item:hover{
-      background-color: #5695BC;
-    }
-    .hstyle{
-      padding-bottom: 20px;
-      text-align: center;
-      color: white;
-    }
+     .centerDiv{
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color: #4F7F96;
+       border: solid 30px #4F7F96;
+       border-radius: 12px;
+       color: white;
+     }
+     .hstyle{
+       padding-bottom: 20px;
+       text-align: center;
+       color: white;
+     }
     </style>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <?php include_once 'AdminSideBar.php' ?>
-    <div class="inStyle">
+    <div class="centerDiv">
         <h1 class="hstyle">Add Course</h1>
         <form action="newCourse.inc.php" method="post">
           <div class="form">
