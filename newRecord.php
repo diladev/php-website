@@ -23,58 +23,7 @@ $result = mysqli_query($conn,"SELECT * FROM attendence WHERE s_id = '".$_SESSION
      </style>
    </head>
    <body>
-    <div class="flex-NavBar">
-     <ul>
-       <li>
-         <div class="tooltip">
-           <a href="studentHome.php" class="navTexT" >
-             <i class='bx bx-home'></i>
-             <span class="tooltiptext">Home</span>
-           </a>
-         </div>
-       </li>
-         <div class="tooltip">
-           <li>
-             <a href="newRecord.php" class="navTexT">
-               <i class='bx bx-task'></i>
-               <span class="tooltiptext ">Record</span>
-             </a>
-           </li>
-         </div>
-         <div class="tooltip">
-           <li>
-             <a href="#" class="navTexT">
-               <i class='bx bxs-dollar-circle'></i>
-               <span class="tooltiptext">Payment</span>
-             </a>
-           </li>
-         </div>
-         <div class="tooltip">
-           <li>
-             <a href="registerCourse.php" class="navTexT">
-               <i class='bx bxs-book-add'></i>
-               <span class="tooltiptext">Register Course</span>
-             </a>
-           </li>
-         </div>
-         <div class="tooltip">
-            <li>
-              <a href="registeredCourses.php" class="navTexT">
-                <i class='bx bxs-book-bookmark' ></i>
-                <span class="tooltiptext">Register Course</span>
-              </a>
-            </li>
-          </div>
-         <div class="tooltip">
-           <li>
-             <a href="logout.inc.php" class="navTexT">
-               <i class='bx bx-log-out' ></i>
-               <span class="tooltiptext">Logout</span>
-             </a>
-           </li>
-         </div>
-       </ul>
-    </div>
+     <?php include_once 'studentSideBar.php' ?>
      <section class="home-section">
        <div class="home-content">
          <table align="center" border="1" style="width: 600px; line-height: 50px;">
