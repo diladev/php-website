@@ -10,51 +10,7 @@
 
   </head>
     <body>
-      <div class="flex-NavBar">
-        <ul class="nav-links">
-          <li>
-            <a href="newAddcourse.php" class="fancy-text">
-              <i class='bx bxs-book-add' ></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-          <li>
-            <a href="newAbsent.php" class="fancy-text">
-              <i class='bx bx-task'></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-          <li>
-            <a href="newAdduser.php" class="fancy-text">
-              <i class='bx bxs-user-plus'></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-          <li>
-            <a href="newTake.php" class="fancy-text">
-              <i class='bx bxs-user-check' ></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-          <li>
-            <a href="adminHomePage.php" class="fancy-text">
-              <i class='bx bx-home'></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-            <li>
-              <a href="logout.inc.php" class="fancy-text">
-                <i class='bx bx-log-out' ></i>
-                <span class="link_name"></span>
-              </a>
-            </li>
-    </ul>
-      </div>
-      <section class="home-section">
-        <div class="home-content">
-
-
-      </section>
+      <?php include_once 'AdminSideBar.php' ?>
       <div class="inStyle">
         <h1 class="hstyle">Signup New User</h1>
         <form class="form" id="AddUserForm" action="signup.inc.php" method="post">
