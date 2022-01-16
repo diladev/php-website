@@ -69,7 +69,7 @@
             </div>
           </table>
           <div style="align-text:center;">
-            <button type="submit" name="submit" class="button" style="">Take Absent</button>
+            <button type="submit" name="submit" class="button" style="">Add New User</button>
           </div>
 
       </form>
