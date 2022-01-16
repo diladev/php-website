@@ -58,7 +58,7 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
               <div style="align-text:center;">
                 <button type="submit" name="submit" class="button2" >Take Absent</button>
               </div>
-           </form>
+            </form>
         </div>
       </div>
   </body>
