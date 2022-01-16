@@ -11,15 +11,15 @@
      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <style media="screen">
 
-     .inStyle{
-       color: white;
-       padding-bottom: 20px;
-       padding-top: 20px;
+     .centerDiv{
+       position: fixed;
+       top: 50%;
        left: 50%;
-       transform: translate(-50%,-50%);
-       width: 300px;
-       border-radius: 25px;
-       background: #4F7F96;
+       transform: translate(-50%, -50%);
+       background-color: #4F7F96;
+       border: solid 30px #4F7F96;
+       border-radius: 12px;
+       color: white;
      }
      .hstyle{
        padding-bottom: 20px;
@@ -32,7 +32,7 @@
    <body>
      <?php include_once 'studentSideBar.php' ?>
      <section class="home-section">
-       <div class="inStyle" style="margin-top: 150px; margin-left:50%;">
+       <div class="centerDiv">
          <form action="register.inc.php" method="post">
            <table align="center" border="0">
              <tr>
