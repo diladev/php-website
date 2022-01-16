@@ -12,33 +12,28 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
     <link rel="stylesheet" href="NavBarStyle.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <style media="screen">
-      .inStyle{
-        float: left;
-        color: white;
-        text-align: left;
-        padding-left: 0;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 300px;
-        border-radius: 25px;
-        background: #4F7F96;
-      }
-      .hstyle{
-        padding-bottom: 20px;
-        text-align: center;
-        color: white;
-      }
+     .centerDiv{
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color: #4F7F96;
+       border: solid 30px #4F7F96;
+       border-radius: 12px;
+       color: white;
+     }
+     .hstyle{
+       padding-bottom: 20px;
+       text-align: center;
+       color: white;
+     }
     </style>
   </head>
   <body>
    <?php include_once 'AdminSideBar.php' ?>
       <div class="container">
         <div class="container2">
-          <div class="inStyle">
+          <div class="centerDiv">
             <h1 class="hstyle">Take Attendence</h1>
             <form action="takeattendance.inc.php" method="post">
               <table border="0" align="center">
