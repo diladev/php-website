@@ -1,17 +1,12 @@
 .inStyle{
-  float: left;
-  color: white;
-  text-align: left;
-  padding-left: 50px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  position: absolute;
-  top: 100px;
-  left: 785px;
-
-  width: 420px;
-  border-radius: 25px;
-  background: #4F7F96;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #4F7F96;
+border: solid 30px #4F7F96;
+border-radius: 12px;
+color: white;
 }
 .in{
   width: 200px;
