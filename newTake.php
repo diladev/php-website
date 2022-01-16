@@ -12,71 +12,30 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
     <link rel="stylesheet" href="NavBarStyle.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <style media="screen">
-
-    .inStyle{
-      float: left;
-      color: white;
-      text-align: left;
-      padding-left: 0;
-      padding-bottom: 20px;
-      padding-top: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      width: 300px;
-      border-radius: 25px;
-      background: #4F7F96;
-    }
-    .hstyle{
-      padding-bottom: 20px;
-      text-align: center;
-      color: white;
-    }
+      .inStyle{
+        float: left;
+        color: white;
+        text-align: left;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+        border-radius: 25px;
+        background: #4F7F96;
+      }
+      .hstyle{
+        padding-bottom: 20px;
+        text-align: center;
+        color: white;
+      }
     </style>
   </head>
   <body>
-    <div class="flex-NavBar">
-      <ul class="nav-links">
-        <li>
-          <a href="newAddcourse.php" class="fancy-text">
-            <i class='bx bxs-book-add' ></i>
-            <span class="link_name"></span>
-          </a>
-        </li>
-        <li>
-          <a href="newAbsent.php" class="fancy-text">
-            <i class='bx bx-task'></i>
-            <span class="link_name"></span>
-          </a>
-        </li>
-        <li>
-          <a href="newAdduser.php" class="fancy-text">
-            <i class='bx bxs-user-plus'></i>
-            <span class="link_name"></span>
-          </a>
-        </li>
-        <li>
-          <a href="newTake.php" class="fancy-text">
-            <i class='bx bxs-user-check' ></i>
-            <span class="link_name"></span>
-          </a>
-        </li>
-        <li>
-          <a href=adminHomePage.php class="fancy-text">
-            <i class='bx bx-home'></i>
-            <span class="link_name"></span>
-          </a>
-        </li>
-          <li>
-            <a href="logout.inc.php" class="fancy-text">
-              <i class='bx bx-log-out' ></i>
-              <span class="link_name"></span>
-            </a>
-          </li>
-  </ul>
-    </div>
-    <section class="home-section">
+   <?php include_once 'studentSideBar.php' ?>
       <div class="container">
         <div class="container2">
           <div class="inStyle">
@@ -99,10 +58,8 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
               <div style="align-text:center;">
                 <button type="submit" name="submit" class="button2" >Take Absent</button>
               </div>
-          </form>
-          </div>
+           </form>
         </div>
-
-      </section>
+      </div>
   </body>
 </html>
