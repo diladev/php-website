@@ -8,9 +8,9 @@ const _pwd = document.getElementById('pwd');
 const _pwdrepeat = document.getElementById('pwdrepeat');
 const _role = document.getElementById('role');
 
-_form.addEventListener('submit', function() {
+_form.addEventListener('submit', ev => {
 
-preventDefault();
+ev.preventDefault();
 checkInputs();
 });
 function checkInputs() {
