@@ -118,7 +118,7 @@ li{
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
 }
 
 .tooltip:hover .tooltiptext {
