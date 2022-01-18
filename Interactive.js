@@ -96,14 +96,6 @@ function setSuccessFor(In) {
 const formControl = In.parentElement;
 formControl.className = 'form success';
 }
-let a;
-function isEmpty(a){
-  if (a = '') {
-    return false;
-  }else {
-    return true;
-  }
-}
 
 function isEmail(email) {
 return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
