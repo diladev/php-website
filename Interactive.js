@@ -7,10 +7,10 @@ const _email = document.getElementById('email');
 const _pwd = document.getElementById('pwd');
 const _pwdrepeat = document.getElementById('pwdrepeat');
 const _role = document.getElementById('role');
-_form.addEventListener('submit', e => {
 
-e.preventDefault();
+_form.addEventListener('submit', function() {
 
+preventDefault();
 checkInputs();
 });
 function checkInputs() {
