@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Contact Form</title>
-    <link rel="stylesheet" href="Contactstyle.css">
+    <link rel="stylesheet" href="ContactStyle.css">
     <link rel="stylesheet" href="HomPage.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
