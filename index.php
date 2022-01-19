@@ -18,7 +18,7 @@
       <ul class="nav-area">
         <li><a class="fancy-text" href="#">Courses</a></li>
         <li><a class="fancy-text" href="#">About Us</a></li>
-        <li><a class="fancy-text" href="#">Contact Us</a></li>
+        <li><a class="fancy-text" href="Contact.php">Contact Us</a></li>
         <?php
         if (isset($_SESSION["uRole"])  && $_SESSION["uRole"]=="admin"){
             echo "<li><a class='fancy-text' href='adminHomePage.php'>Admin Page</a>";
