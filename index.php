@@ -37,7 +37,7 @@
        
     <div class="centerDiv" style="background:none; border: none;">
 
-      <div class="home-welcome-text">
+      <div class="hstyle">
         <h1 class="h1">Student Self-Managment</h1>
 
       </dive>
