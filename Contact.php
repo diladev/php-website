@@ -17,9 +17,10 @@
        <nav>
          <ul>
        <ul class="nav-area">
-         <li><a class="fancy-text" href="#">Courses</a></li>
-         <li><a class="fancy-text" href="#">About Us</a></li>
-         <li><a class="fancy-text" href="#">Contact Us</a></li>
+        <li><a class="fancy-text" href="Index.php">Home</a></li>
+        <li><a class="fancy-text" href="#">Courses</a></li>
+        <li><a class="fancy-text" href="#">About Us</a></li>
+        <li><a class="fancy-text" href="Contact.php">Contact Us</a></li>
          </ul>
        </nav>
      </div>
