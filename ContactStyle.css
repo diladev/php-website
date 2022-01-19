@@ -170,6 +170,7 @@ body{
   color: white;
 }
 .hstyle{
+  background: rgba(0,0, 0, 0.9);
   padding-bottom: 20px;
   text-align: center;
   color: white;
