@@ -102,6 +102,9 @@ clear: both;
 
 .hstyle{
   padding-bottom: 20px;
+  background: linear-gradient( to right bottom, rgba(57,69, 81, 0.7),rgba(57,69, 81, 0.7));
   text-align: center;
   color: white;
+  border-radius: 30px;
+  
 }
