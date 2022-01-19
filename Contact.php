@@ -19,7 +19,7 @@
        <ul class="nav-area">
         <li><a class="fancy-text" href="index.php">Home</a></li>
         <li><a class="fancy-text" href="#">Courses</a></li>
-        <li><a class="fancy-text" href="#">About Us</a></li>
+        <li><a class="fancy-text" href="About.php">About Us</a></li>
         <li><a class="fancy-text" href="Contact.php">Contact Us</a></li>
         <?php
         if (isset($_SESSION["uRole"])  && $_SESSION["uRole"]=="admin"){
