@@ -88,3 +88,14 @@ clear: both;
   margin-top: 20px;
   display: inline-block;
 }
+
+.centerDiv{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4F7F96;
+  border: solid 30px #4F7F96;
+  border-radius: 12px;
+  color: white;
+}
