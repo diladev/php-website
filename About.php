@@ -46,7 +46,7 @@
          </ul>
        </nav>
      </div>
-     <div class="centerDiv" style="background:none; border: none; top:10px;">
+     <div class="centerDiv" style="background:none; border: none;">
        <div class="contact-section">
           <h1 style="font-size:20; background:rgba(0, 0, 0, 0.9); padding:20px; border-radius:10px;">About Us
           <br><br>Not long ago, we were just students trying to live the normal college life, but suddenly discovering that the student life can be easier if thought into it more depth. What if you could be able to check your own attendance on a website wherever you are. Or pay for your installment whenever and wherever and also changing your payment plan all with a click of a button. Also registering for new courses that seems interesting and important for your major. This may sound like it is all useless, and you can do all of these jobs face to face, but time is money and by taking just seconds off a work that needed more time can save many. That is why we wish to start a new era and start our new year easier than ever.</h1>
