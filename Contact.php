@@ -21,6 +21,17 @@
         <li><a class="fancy-text" href="#">Courses</a></li>
         <li><a class="fancy-text" href="#">About Us</a></li>
         <li><a class="fancy-text" href="Contact.php">Contact Us</a></li>
+        <?php
+        if (isset($_SESSION["uRole"])  && $_SESSION["uRole"]=="admin"){
+            echo "<li><a class='fancy-text' href='adminHomePage.php'>Admin Page</a>";
+            echo "<li><a class='fancy-text' href='logout.inc.php'>Log out</a>";
+        }else if (isset($_SESSION["uRole"]) && $_SESSION["uRole"]=="student") {
+          echo "<li><a class='fancy-text' href='studentHome.php'>Profile Page</a>";
+          echo "<li><a class='fancy-text' href='logout.inc.php'>Log out</a>";
+        }else{
+          echo "<li><a class='fancy-text' href='mysite.php'>Login</a></li>";
+        }
+        ?>
          </ul>
        </nav>
      </div>
