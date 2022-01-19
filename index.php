@@ -34,10 +34,13 @@
         </ul>
       </nav>
     </div>
+    <div class="centerDiv" style="background:none; border: none;">
+
       <div class="home-welcome-text">
         <h1 class="h1">Student Self-Managment</h1>
 
       </dive>
+    </div>
     </div>
 
   </body>
