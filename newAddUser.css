@@ -1,0 +1,47 @@
+.inStyle{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #4F7F96;
+border: solid 30px #4F7F96;
+border-radius: 12px;
+color: white;
+}
+.in{
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  background-color: white;
+  border:none;
+
+}
+
+.item:hover{
+  background-color: #5695BC;
+}
+.hstyle{
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.form i{
+  position: absolute;
+  margin-left: -50px;
+  visibility: hidden;
+}
+.form.success iput{
+  border-color: solid 2px #2ecc80;
+}
+.form.error iput{
+  border-color: solid 2px #E93B3B;
+}
+.form.success i.bxs-check-circle{
+  visibility: visible;
+  color: #2ecc80;
+}
+.form.error i.bxs-error-circle{
+  visibility: visible;
+  color: #E93B3B;
+}
