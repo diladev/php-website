@@ -55,18 +55,6 @@ $date = $row['tuition_date'];
                 echo "<h1 style='color:white;'>&nbsp&nbsp&nbsp" . $date . "</h1>";
               } ?></td>
             </tr>
-            <tr>
-              <?php
-              $deadline = DateTime::createFromFormat("m.d.y", $date);
-              if ($deadline >  date("m.d.y")){
-                $passed =  date("m.d.y") - $deadline;
-                echo "<h1 style='color:white;'>Days have " . (int)$passed . " passed since the deadline</h1>";
-              }else{
-                $passed = $deadline -  date("m.d.y");
-                echo "<h1 style='color:white;'>Days " . (int)$passed*-1 . " left to pay</h1>";
-              }
-               ?>
-            </tr>
           </table>
     </div>
    </section>
