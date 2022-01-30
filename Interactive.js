@@ -7,6 +7,8 @@ const _email = document.getElementById('email');
 const _pwd = document.getElementById('pwd');
 const _pwdrepeat = document.getElementById('pwdrepeat');
 const _role = document.getElementById('role');
+const _dep = document.getElementById('dep');
+
 
 
 
@@ -17,6 +19,8 @@ _form.addEventListener('submit', function(ev) {
   let pwd=0;
   let pwdrepeat=0;
   let role=0;
+  let dep=0;
+  
 
   const _nameVal = _name.value;
   const _uidVal = _uid.value;
@@ -24,8 +28,10 @@ _form.addEventListener('submit', function(ev) {
   const _pwdVal = _pwd.value;
   const _pwdrepeatVal = _pwdrepeat.value;
   const _roleVal = _role.value;
+  const _depVal = _dep.value;
+  
 
-  if (_nameVal === '' && _emailVal === '' && _pwdVal === '' && _uidVal === '' && _roleVal === ''&& _pwdrepeatVal === '') {
+  if (_nameVal === '' && _emailVal === '' && _pwdVal === '' && _uidVal === '' && _roleVal === ''&& _pwdrepeatVal === '' && _depVal === '') {
     setErrorFor(_name);
     setErrorFor(_uid);
     setErrorFor(_email);
@@ -70,6 +76,14 @@ _form.addEventListener('submit', function(ev) {
       setSuccessFor(_uid);
       uid=1;
     }
+    
+    if(_depVal === '') {
+      setErrorFor(_dep);
+      alert("Please Enter User ID.");
+    } else {
+      setSuccessFor(_dep);
+      dep=1;
+    }
 
     if(_roleVal === "admin") {
       setSuccessFor(_role);
@@ -95,7 +109,7 @@ _form.addEventListener('submit', function(ev) {
     }
     }
 
-    if(name==0 || uid==0 || email==0 || pwd==0 || pwdrepeat==0 || role==0){
+    if(name==0 || uid==0 || email==0 || pwd==0 || pwdrepeat==0 || role==0 || dep==0){
       ev.preventDefault();
     }
 
