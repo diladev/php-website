@@ -52,8 +52,7 @@ $course = mysqli_query($conn, "SELECT * FROM courses");
           <th style="background-color:#4F7F96; color:white;">Credit Hour</th>
         </t>
         <?php
-        $result = mysqli_fetch_array($course);
-        while ($rows=mysqli_fetch_array($result)) {
+        while ($rows=mysqli_fetch_array($course)) {
          
         ?>
 
