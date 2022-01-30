@@ -52,16 +52,14 @@ $course = mysqli_query($conn, "SELECT * FROM courses");
           <th style="background-color:#4F7F96; color:white;">Credit Hour</th>
         </t>
         <?php
-        while ($rows=mysqli_fetch_assoc($courses)) {
-         $CNQ = mysqli_fetch_array($course);
-         $CN = $CNQ['course_name'];
-         $CH = $CNQ['credit_hour'];
-
+        $CNQ = mysqli_fetch_array($course);
+        while ($rows=mysqli_fetch_assoc($CNQ)) {
+         
         ?>
 
         <tr>
-          <td style="background-color:#4F7F96; color:white;"><?php echo $CN; ?></td>
-          <td style="background-color:#4F7F96; color:white;"><?php echo $CH; ?></td>
+          <td style="background-color:#4F7F96; color:white;"><?php echo $row['course_name']; ?></td>
+          <td style="background-color:#4F7F96; color:white;"><?php echo $row['credit_hour']; ?></td>
         </tr>
         <?php
       }
