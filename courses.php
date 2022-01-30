@@ -1,6 +1,7 @@
 <?php
 session_start();
 include 'dbh.inc.php';
+$course = mysqli_query($conn, "SELECT * FROM courses");
  ?>
 <html lang="en" dir="ltr">
   <head>
@@ -10,7 +11,6 @@ include 'dbh.inc.php';
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <?php include_once 'studentSideBar.php' ?>
     <section class="home-section">
 
      
@@ -52,8 +52,7 @@ include 'dbh.inc.php';
           <th style="background-color:#4F7F96; color:white;">Credit Hour</th>
         </t>
         <?php
-        while ($rows=mysqli_fetch_assoc($result)) {
-         $course = mysqli_query($conn, "SELECT * FROM courses");
+        while ($rows=mysqli_fetch_assoc($courses)) {
          $CNQ = mysqli_fetch_array($course);
          $CN = $CNQ['course_name'];
          $CH = $CNQ['credit_hour'];
