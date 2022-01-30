@@ -38,6 +38,7 @@ _form.addEventListener('submit', function(ev) {
     setErrorFor(_pwdrepeat);
     setErrorFor(_pwd);
     setErrorFor(_role);
+    setErrorFor(_dep);
     alert("All inputs are empty.");
 
   }else {
