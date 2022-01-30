@@ -57,7 +57,7 @@ $result = mysqli_query($conn,'SELECT * FROM attendence');
   <body>
     <?php include_once 'studentSideBar.php' ?>
     <section class="dynamic-txts">
-      <h2>Welcom Dear Student</h2>
+      <h2>Welcome Dear Student</h2>
       </section>
   </body>
 </html>
